@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GDh</string>
+    <string name="col_moto">ХОЧЕШЬ ЛЕТАТЬ - УЧИСЬ СТРОИТЬ</string>
+    <string name="accessib_col_logo">Логотип колледжа</string>
+    <string name="title_activity_main_view1">MainView1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="messenger_title">Сообщения</string>
+    <string name="calendar_title">Календарь</string>
+    <string name="files_title">Файлы</string>
+    <string name="settings_title">Настройки</string>
+    <string name="info_title">О приложении</string>
+    <string name="username_placeholder">Имя Пользователя</string>
+    <string name="usergroup_placeholder">Группа Пользователя</string>
+    <string name="logout_title">Выйти из аккаунта</string>
+    <string name="open_nav">nav open</string>
+    <string name="nav_close">nav close</string>
+    <string name="notification_title">Уведомления</string>
+    <string name="lesson_placeholder">Урок SAMPLE TEXT</string>
+    <string name="time_card_placeholder">3:33 SAMPLE</string>
+    <string name="lesson_description_placeholder">Описание урока/заданий/т.д.</string>
+</resources>

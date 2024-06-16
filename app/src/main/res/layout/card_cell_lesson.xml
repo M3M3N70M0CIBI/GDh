@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/lessonLayoutRoot"
+    android:layout_marginBottom="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/lessonCard"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="10dp"
+        android:clickable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="5"
+            android:background="@color/itemDefCol">
+
+            <ImageView
+                android:id="@+id/option_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/book_ic"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/lessonTitle"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/lesson_placeholder"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/lessonTimeText"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="2"
+                android:text="@string/time_card_placeholder"/>
+
+            
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/folblePart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bgshape5"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lesson_discription"
+            android:text="@string/lesson_description_placeholder"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

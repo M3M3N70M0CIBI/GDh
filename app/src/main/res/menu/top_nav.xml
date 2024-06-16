@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="none">
+
+
+        <item
+            android:id="@+id/notifications"
+            android:icon="@drawable/top_menu_ic_notification"
+            android:title="@string/notification_title"
+            android:iconTint="@color/black"
+            />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/top_menu_ic_cog"
+            android:title="@string/settings_title"
+            android:iconTint="@color/black"
+            />
+        <item
+            android:id="@+id/info"
+            android:icon="@drawable/top_menu_ic_info"
+            android:title="@string/info_title"
+            android:iconTint="@color/black"
+            />
+
+    </group>
+
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/top_menu_ic_exit"
+                android:title="@string/logout_title"
+                android:iconTint="@android:color/holo_red_dark"
+                android:iconTintMode="multiply"/>
+        </menu>
+
+    </item>
+
+</menu>
